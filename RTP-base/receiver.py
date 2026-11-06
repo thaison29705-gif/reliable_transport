@@ -2,10 +2,7 @@ import sys
 import socket
 import argparse
 
-try:
-    from utils import PacketHeader, compute_checksum
-except ImportError:
-    from util import PacketHeader, compute_checksum
+from utils import PacketHeader, compute_checksum
 
 PKT_START = 0
 PKT_END = 1
