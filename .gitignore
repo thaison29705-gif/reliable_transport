@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+output.txt
+*.txt
+!test_scripts/test_message.txt
+*.log
+.DS_Store
